@@ -1,0 +1,98 @@
+body{
+	font-family: 'Chivo', 'Sans Serif';
+	margin: 0px;
+	background-color: rgb(84, 84, 83);
+
+}
+
+.banner-wrap{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://lh3.googleusercontent.com/MaDmzimxpUehPENZslv5anFkIhceaK_RQRrnJp2vO6xgQlzG-lA5pV6SKZNhxtTdkz2GzySfDogsIkA8P8sFhZL9S-wXnomS56Y9gT3qgGPho1CbD9DrqQqY0Eq5RPqJnx3R6OZoKQuCJfQKA1Fo5ylEr11msJ2wcsv45xFDM2fN138-wxXC9CweytLh8jHisjAVjPRVbhScx3YRcB-2A-nsxzGXzF6RhH1dulRP4_Abuhs3AmfS6u7nIZScq8Llk3js0Bm9Gt4XbVpG9PWu3scPGoIbBbKrSiuEsfQ9Ka9XO43A8qRivOErQwMWqd9rTOaAMDxPzUW2J_3G9pFlhMEVsU-2wJgEAW-Uivlpn_Tjheltv_HITBEBotYrpMxjx2tAtN4xw6GYjFbtLsqyWO4sMyXRvtlLBkUnoBpPVrv5oufAkcqfSV7nW6iz1DiCtEaTQM8BASBX5OrBGL22EmtVf6LEafCT8DVRUW1hy9eCek7rvz_1g07_B9t_F6zIwXL6y7Umv9a0JW9aAyErPRmMXTXr3PWxgZM8XP8xHvJA5fpVvFHBkwxi4SiAaHMqPsznIsrjZ7wPYqitQOCpHTjGaNbMjC4k293PNexEyr1Rje3IT9yq49rgwWIiwmEv86i5kh_gCEWBrKLo835euEY1xmBOrnWVax6WcIEARxUPrzKujmdZP5OpCbzVJB8=w986-h657-no?authuser=0);
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0; 
+	text-align: center;
+}
+
+.banner-wrap h1{
+	color: hsl(135, 0%, 100%);
+	font-size: 45px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.banner-wrap p{
+	color: hsla(135, 0%, 100%, 0.7);
+}
+
+.banner-wrap a{
+	background-color: black;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 75px;
+	display: inline-block;
+	text-decoration: none;
+	transition: transform 0.5s ease;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+
+}
+
+.banner-wrap a:hover{
+	background-color: white;
+	color: blue;
+	transform: scale(1.1);
+ }
+
+.banner-wrap a:active{
+	background-image: linear-gradient(rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+
+}
+
+.cards-wrap{
+	width: 1080px;
+	margin: 60px auto;
+}
+
+.cards-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 60px;
+
+}
+
+.cards{
+	background-color: black;
+	box-shadow: 0 0 16px rgb(255, 255, 255); 
+	border-radius: 4px;
+	padding: 20px;
+	margin: 0px 20px; 
+
+
+}
+
+.cards img{
+	width: 100%;
+	height: 100%;
+}
+
+h3{
+	color: white;
+}
+
+footer{
+	background-color: black;
+	padding: 30px 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+footer p{
+	color: white;
+	margin: 0;
+	font-weight: bold;
+
+}
